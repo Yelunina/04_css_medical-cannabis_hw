@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+.header{
+    height: 400px;
+   
+   background-image: url("./image/Cannabis-Blog-Header-1920x468.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main{
+    height: 600px;
+    background-color: rgba(204, 244, 212, 0.5);
+    position: relative;
+
+}
+.footer{
+    height: 200px;
+    background-color: rgba(23, 205, 56, 0.5);
+}
+.left, .center, .right{
+    position: absolute;
+    width: 30%;
+}
+.left{
+  left: 20px;
+}
+.right{
+    right: 20px;
+}
+.center{
+    positon:absolute;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
