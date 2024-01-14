@@ -1,44 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:wght@400;500;700;900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:wght@400;500;700;900&family=Salsa&display=swap");
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+body {
+    font-family: "Salsa", cursive;
+}
+.header {
+    height: 400px;
+    background-color: #05b005eb;
+    background-image: url("./image/botl.png");
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 160px;
+    padding-right: 50px;
+}
+.header h1 > a {
+    color: #1b472d;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.main ul {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+.main li {
+    margin: 5px 0;
+    border-bottom: 1px solid #97e49b;
+    padding-bottom: 10px;
     
 }
-.header{
-    height: 400px;
-   
-   background-image: url("./image/Cannabis-Blog-Header-1920x468.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-.main{
-    height: 600px;
-    background-color: rgba(204, 244, 212, 0.5);
-    position: relative;
 
-}
-.footer{
-    height: 200px;
-    background-color: rgba(23, 205, 56, 0.5);
-}
-.left, .center, .right{
+.left,
+.center,
+.right {
     position: absolute;
     width: 30%;
 }
-.left{
-  left: 20px;
+h2 {
+    font-weight: 400px;
+    font-size: 20px;
+    background-color: #edf3f1;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
-.right{
+
+.left {
+    left: 20px;
+}
+.right {
     right: 20px;
 }
-.center{
-    positon:absolute;
-    left:0;
-    right:0;
-    margin:0 auto;
+.center {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
