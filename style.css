@@ -2,13 +2,21 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: justify;
+    text-indent: 1.5em;
 }
 body {
     font-family: "Salsa", cursive;
+    background-color: rgb(224, 249, 203);
+    background-image: url("./image/0c8012cf-36d10667c3cac91e99cd982b1b72fa98.jpg");
+    background-repeat: no-repeat;
+   background-size: 30%;
+   background-position: center;
+
 }
 .header {
     height: 400px;
-    background-color: #05b005eb;
+    background-color: #2c9e02eb;
     background-image: url("./image/botl.png");
     background-repeat: no-repeat;
 }
@@ -19,8 +27,19 @@ h1 {
     padding: 160px;
     padding-right: 50px;
 }
+p {
+    padding-top: 10px;
+}
+.main a {
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
 .header h1 > a {
-    color: #1b472d;
+    color: black;
     font-weight: 600;
     text-transform: uppercase;
     padding-left: 10px;
@@ -35,9 +54,8 @@ h1 {
 }
 .main li {
     margin: 5px 0;
-    border-bottom: 1px solid #97e49b;
+    border-bottom: 1px solid #dbe0db;
     padding-bottom: 10px;
-    
 }
 
 .left,
@@ -49,7 +67,7 @@ h1 {
 h2 {
     font-weight: 400px;
     font-size: 20px;
-    background-color: #edf3f1;
+    background-color: #91e345;
     text-align: center;
     text-transform: uppercase;
     border: 1px solid transparent;
